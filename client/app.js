@@ -8,13 +8,13 @@ app.config(['$locationProvider', '$routeProvider', '$httpProvider', function ($l
         .when('/',{
             templateUrl: 'views/products.html'
         })
-        .when('/chellenge',{
-            templateUrl: 'views/chellenge.html'
+        .when('/challenge',{
+            templateUrl: 'views/challenge.html'
         })
         .when('/404', {
             templateUrl: '404.html'
         })
-        
+
         .otherwise({redirectTo: '/404'})
     ;
 

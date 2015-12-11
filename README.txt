@@ -1,76 +1,87 @@
-#####################################
-#### APLIKACJA REJESTR PRODUKTÓW ####
-#####################################
+#######################################
+#### Aplikacja "Rejestr Produktów" ####
+#######################################
 
-Stworzyć aplikacje umożliwiająca zarządzającą tabelką produkty.
+
+
+Zadanie:
+
+Stworzyć aplikacje umożliwiającą zarządzającą tabelką produkty.
 Aplikacja ma umożliwić wykonywanie podstawowych operacji CRUD na rekordach tabeli.
 Aplikacja powinna działać w oparciu wzorca: Single-page application.
 
-#Podstawowe wymagane funkcjonalności aplikacji:
-- Tabela z lista produktów
+
+########################################################
+#### Podstawowe wymagane funkcjonalności aplikacji: ####
+########################################################
+
+- Tabela z listą produktów
 - Formularz dodania/edycji produktu
 - Usuwanie produktów
 
+
 #Dodatkowe mile widziane funkcjonalności:
 - Paginacja tabeli produktów
-- Możliwość sortowania elementów tabeli po kolumnie
-- Możliwość wyszukiwania elementów w tabeli,
+- Możliwość sortowania elementów tabeli w kolumnach
+- Możliwość wyszukiwania elementów w tabeli
 - Formularz dodania/edycji produktu umieszczony w oknie modalnym
 
-#Krótki opis aplikacji:
+
+
+
+################################
+#### Krótki opis aplikacji: ####
+################################
+
 W głównym widoku aplikacji powinna znajdować się tabela (GRID) z listą dostępnych produktów.
-Następnie przy każdym produkcie musi być dostępna akcja z możliwością edycji i usunięcia produktu.
-Nad tabelka powinien znajdować się PRZYCISK umożliwiający dodanie nowego produktu.
+Przy każdym z nich powinna być dostępna akcja z możliwością edycji i usunięcia produktu.
+Nad tabelką powinien znajdować się przycisk umożliwiający dodanie nowego produktu.
 
 
-#Technologie użyte do realizacji zadania
 
-Warstwa Klienta:
-- HTML
-- JavaScrip
+##################################################
+#### Technologie użyte do realizacji zadania: ####
+##################################################
+
+#Warstwa Klienta:
 - Framework AngularJS (obowiązkowy)
-- Dowolne inne, dodatkowe narzędzia JS, CSS, moduły AngularJs
+- HTML
+- JavaScript
+- Dowolne inne, dodatkowe narzędzia JS, CSS, moduły AngularJS
 
-Warstwa Serwera:
+
+#Warstwa Serwera:
 - PHP
-- Dowolny Framework PHP (nieobowiązkowy, preferowany Yii, Yii2)
+- lub dowolny Framework PHP (np. Yii, Yii2)
 
-DB
-- Należy wykorzystać baze umieszczoną w projekcie:
-  Katalog server/db.
-  Można korzystać z dowolnej bazy danych MySql, PgSql, SQLite lub cała obsługę oprzeć na plikach JSON lub CSV
----------------------------------------------------------------------------------------------------------------
 
-##############################
-### URUCHOMIENIE APLIKACJI ###
-##############################
+#DB:
+- Należy wykorzystać bazę umieszczoną w projkecie: Katalog server/db.
+- Można korzystać z dowolnej wybranej bazy danych: MySql, PgSql, SQLite; lub całą obsługę zrobić na plikach JSON lub CSV
 
-Do uruchomienie aplikacji potrzebny jest serwer http ( Apache,Nginx lub inny).
-Po sklonowaniu aplikacji należy pobrać potrzebne biblioteki.
-Aby to zrobić trzeba skorzystać z narzędzia „bower”.
-Opis instalacji znajdziemy pod  adresem: http://bower.io/#install-bower
 
-Po instalacji narzędzia przechodzimy do katalogu ‘client’ i z linii komend wykonujemy polecenie:
+___________________________________________________________________________________________________________________________
 
-  $ bower update
 
-To polecenie pobierze nam potrzebne biblioteki do uruchomienia aplikacji.
-Pobrane biblioteki znajdują się w katalogu 'vendor'.
-Jeśli chcemy dodać kolejną bibliotekę aktualizujemy plik 'bower.json' a następnie wykonujemy polecenie:
+#################################
+#### Uruchomienie Aplikacji: ####
+#################################
 
-  $ bower update
 
----------------------------------------------------------------------------------------------------------------
-##############################
-###  Przesłanie aplikacji  ###
-##############################
+Do uruchomienia aplikacji potrzebny jest serwer http ( Apache,Nginx lub inny). Po sklonowaniu aplikacji należy pobrać potrzebne biblioteki. Aby to zrobić trzeba skorzystać z narzędzia „bower”. Opis instalacji znajdziemy pod adresem: http://bower.io/#install-bower Po instalacji narzędzia przechodzimy do katalogu ‘client’ i z linii komend wykonujemy polecenie: $ bower update To polecenie pobierze nam potrzebne biblioteki do uruchomienia aplikacji. Pobrane biblioteki znajdują się w katalogu 'vendor'. Jeśli chcemy dodać kolejną bibliotekę aktualizujemy plik 'bower.json' a następnie wykonujemy polecenie: $ bower update.
+
+
+
+###############################
+#### Przesłanie aplikacji: ####
+###############################
+
 
 Prosimy o przesłanie gotowej aplikacji w formie paczki .zip pod adres e-mail wskazany w rekrutacji. Prosimy o nie dołączanie do aplikacji katalogu vendor.
+Najlepszym sposobem na przesłanie aplikacji będzie umieszczenie jej w repozytorium GIT (GitHub, Bitbucket) a następnie przesłanie linka z możliwością
+sklonowania aplikacji pod wskazany wcześniej adres e-mail
 
-Najlepszym sposobem na przesłanie aplikacji będzie umieszczenie jej w repozytorium GIT ( https://github.com/ , https://bitbucket.org/ )
-a następnie przesałnie linka z możliwościa sklonowania aplikacji pod wskazany wcześniej adres e-mail
-
----------------------------------------------------------------------------------------------------------------
+___________________________________________________________________________________________________________________________
 
 
-POWODZENIA!
+Powodzenia!
