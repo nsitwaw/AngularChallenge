@@ -36,8 +36,8 @@ Warstwa Serwera:
 - Dowolny Framework PHP (nieobowiązkowy, preferowany Yii, Yii2) 
 
 DB
-- Należy wykorzystać baze umieszcona w projkecie:
-  Katalog server/db.
+- Należy wykorzystać baze umieszczoną w projkecie:
+  Katalog "server/db".
   Można korzystać z dowolnej bazy danych MySql, PgSql, SQLite lub cała obsługę zrobić na plikach JSON lub csv   
 ---------------------------------------------------------------------------------------------------------------
 
