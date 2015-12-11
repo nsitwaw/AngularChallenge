@@ -15,7 +15,7 @@ Aplikacja powinna działać w oparciu wzorca: Single-page application.
 - Paginacja tabeli produktów
 - Możliwość sortowania elementów tabeli po kolumnie
 - Możliwość wyszukiwania elementów w tabeli,
-- Formularz dodania/edycji umieszczony produktu w oknie modalnym
+- Formularz dodania/edycji produktu umieszczony w oknie modalnym
 
 #Krótki opis aplikacji:
 W głównym widoku aplikacji powinna znajdować się tabela (GRID) z listą dostępnych produktów.
@@ -36,9 +36,9 @@ Warstwa Serwera:
 - Dowolny Framework PHP (nieobowiązkowy, preferowany Yii, Yii2)
 
 DB
-- Należy wykorzystać baze umieszcona w projkecie:
+- Należy wykorzystać baze umieszczoną w projekcie:
   Katalog server/db.
-  Można korzystać z dowolnej bazy danych MySql, PgSql, SQLite lub cała obsługę zrobić na plikach JSON lub csv
+  Można korzystać z dowolnej bazy danych MySql, PgSql, SQLite lub cała obsługę oprzeć na plikach JSON lub CSV
 ---------------------------------------------------------------------------------------------------------------
 
 ##############################
@@ -62,12 +62,13 @@ Jeśli chcemy dodać kolejną bibliotekę aktualizujemy plik 'bower.json' a nast
 
 ---------------------------------------------------------------------------------------------------------------
 ##############################
-### Przesłanie aplikacji ###
+###  Przesłanie aplikacji  ###
 ##############################
 
 Prosimy o przesłanie gotowej aplikacji w formie paczki .zip pod adres e-mail wskazany w rekrutacji. Prosimy o nie dołączanie do aplikacji katalogu vendor.
 
-Najlepszym sposobem na przesłanie aplikacji będzie umieszczenie jej w repozytorium GIT ( https://github.com/ , https://bitbucket.org/ ) a następnie przesłanie linka z możliwościa sklonowania aplikacji a następnie przesałnie linka pod wskazany wcześniej adres e-mail
+Najlepszym sposobem na przesłanie aplikacji będzie umieszczenie jej w repozytorium GIT ( https://github.com/ , https://bitbucket.org/ )
+a następnie przesałnie linka z możliwościa sklonowania aplikacji pod wskazany wcześniej adres e-mail
 
 ---------------------------------------------------------------------------------------------------------------
 
