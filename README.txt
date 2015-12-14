@@ -18,6 +18,9 @@ Aplikacja powinna działać w oparciu wzorca: Single-page application.
 - Tabela z listą produktów
 - Formularz dodania/edycji produktu
 - Usuwanie produktów
+- Należy wykorzystać bieżący szkielet aplikacji:
+  * katalog "client", warstwa klienta (HTML, JS, CSS)
+  * katalog "server", warstwa serwera, (PHP - REST API) 
 
 
 #Dodatkowe mile widziane funkcjonalności:
